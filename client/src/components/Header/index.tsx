@@ -1,17 +1,20 @@
 import React from "react";
+import { HeaderComponent, LogoComponent } from "./styles";
 
 export const Header: React.FC = () => {
 	return (
-		<div>
+		<HeaderComponent>
 			<Logo />
-		</div>
+		</HeaderComponent>
 	);
 }
 
 const Logo: React.FC = () => {
 	return (
-		<h1>
-			<span>corrige</span>pra<span>mim</span>
-		</h1>
+		<LogoComponent>
+			<span>corrige</span>
+			pra
+			<span>mim</span>
+		</LogoComponent>
 	);
 }
