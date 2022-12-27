@@ -19,10 +19,15 @@ export const LogoComponent = styled.h1`
 `;
 
 export const DescriptionComponent = styled.p`
-	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+
+	font-size: 1.4rem;
 	font-weight: 400;
 	line-height: 2rem;
 	text-align: center;
 
 	padding: 1.5rem;
+
+	height: calc(100vh - 257px);
 `;
