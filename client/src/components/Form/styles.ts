@@ -77,3 +77,48 @@ export const GenerateButtonComponent = styled.button`
 		background-color: #444444;
 	}
 `;
+
+export const QuestionComponent = styled.div`
+	display: flex;
+	align-items: center;
+
+	margin: 1rem 0;
+
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	object-fit: cover;
+
+	h3{
+		width: 18%;
+		font-size: 1.5rem;
+		text-align: center;
+		line-height: 2.5rem;
+	}
+
+	.question-N{
+		border-radius: 0 9px 9px 0;
+	}
+`;
+
+export const QuestionLetterComponent = styled.button`
+	width: calc((82%)/6);
+
+	background-color: transparent;
+	border: none;
+
+	color: #ffffff;
+
+	font-family: 'Anybody', sans-serif;
+	font-size: 1.25rem;
+	text-align: center;
+	line-height: 2.5rem;
+
+	transition: 0.3s ease;
+
+	:hover, :focus{
+		background-color: #ffffff;
+		color: #222222;
+
+		cursor: pointer;
+	}
+`;
